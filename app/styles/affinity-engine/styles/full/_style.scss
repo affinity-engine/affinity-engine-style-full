@@ -1,0 +1,110 @@
+$ae-menu-included: false !default;
+$ae-text-included: false !default;
+
+@if ($ae-menu-included == true) {
+  .ae-menu.ae-full {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-width: $ae-menu-full-border-width;
+    border-radius: $ae-menu-full-border-radius;
+
+    .ae-menu-option, .ae-menu-input {
+      border-width: $ae-menu-option-full-border-width;
+    }
+  }
+
+  @media (min-width: map-get($breakpoints, small)) {
+    .ae-menu.ae-full {
+      padding: $ae-menu-full-padding * map-get($breakpoint_factors, small);
+
+      .ae-menu-header {
+        font-size: $ae-menu-header-full-font-size * map-get($breakpoint_factors, small);
+        margin-bottom: $ae-menu-header-full-margin-bottom * map-get($breakpoint_factors, small);
+      }
+
+      .ae-menu-option {
+        font-size: $ae-menu-option-full-font-size * map-get($breakpoint_factors, small);
+      }
+
+      .ae-menu-option, .ae-menu-input {
+        width: $ae-menu-option-full-width * 0.95;
+        margin: $ae-menu-option-full-margin-bottom auto;
+      }
+    }
+
+    .ae-text-menu {
+      .ae-menu.ae-full {
+        margin-top: $ae-text-menu-full-margin-top * map-get($breakpoint_factors, small);
+      }
+    }
+  }
+
+  @media (min-width: map-get($breakpoints, medium)) {
+    .ae-menu.ae-full {
+      padding: $ae-menu-full-padding;
+
+      .ae-menu-header {
+        font-size: $ae-menu-header-full-font-size;
+        margin-bottom: $ae-menu-header-full-margin-bottom;
+      }
+
+      .ae-menu-option {
+        font-size: $ae-menu-option-full-font-size;
+      }
+
+      .ae-menu-option, .ae-menu-input {
+        width: $ae-menu-option-full-width;
+        margin-bottom: $ae-menu-option-full-margin-bottom;
+      }
+    }
+
+    .ae-text-menu {
+      .ae-menu.ae-full {
+        margin-top: $ae-text-menu-full-margin-top;
+      }
+    }
+  }
+}
+
+@if ($ae-text-included == true) {
+  .ae-text.ae-full {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: 0;
+
+    border-width: $ae-text-full-border-width;
+    border-radius: $ae-text-full-border-radius;
+    text-align: $ae-text-full-text-align;
+
+    .ae-text-caption {
+      display: block;
+      border: 0;
+    }
+  }
+
+  @media (min-width: map-get($breakpoints, small)) {
+    .ae-text.ae-full {
+      font-size: $ae-text-full-font-size * map-get($breakpoint_factors, small);
+      padding: $ae-text-full-padding * map-get($breakpoint_factors, small);
+
+      .ae-text-caption {
+        font-size: $ae-text-caption-full-font-size * map-get($breakpoint_factors, small);
+      }
+    }
+  }
+
+  @media (min-width: map-get($breakpoints, medium)) {
+    .ae-text.ae-full {
+      font-size: $ae-text-full-font-size;
+      padding: $ae-text-full-padding;
+
+      .ae-text-caption {
+        font-size: $ae-text-caption-full-font-size;
+      }
+    }
+  }
+}
