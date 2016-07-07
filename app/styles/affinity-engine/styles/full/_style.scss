@@ -10,7 +10,7 @@ $ae-text-included: false !default;
     border-width: $ae-menu-full-border-width;
     border-radius: $ae-menu-full-border-radius;
 
-    .ae-menu-option, .ae-menu-input {
+    .ember-columnar-menu-option-button, .ember-columnar-menu-option-input {
       border-width: $ae-menu-option-full-border-width;
     }
   }
@@ -24,19 +24,13 @@ $ae-text-included: false !default;
         margin-bottom: $ae-menu-header-full-margin-bottom * map-get($breakpoint_factors, small);
       }
 
-      .ae-menu-option {
+      .ember-columnar-menu-option-button {
         font-size: $ae-menu-option-full-font-size * map-get($breakpoint_factors, small);
       }
 
-      .ae-menu-option, .ae-menu-input {
+      .ember-columnar-menu-option-button, .ember-columnar-menu-option-input {
         width: $ae-menu-option-full-width * 0.95;
         margin: $ae-menu-option-full-margin-bottom auto;
-      }
-    }
-
-    .ae-text-menu {
-      .ae-menu.ae-full {
-        margin-top: $ae-text-menu-full-margin-top * map-get($breakpoint_factors, small);
       }
     }
   }
@@ -50,19 +44,13 @@ $ae-text-included: false !default;
         margin-bottom: $ae-menu-header-full-margin-bottom;
       }
 
-      .ae-menu-option {
+      .ember-columnar-menu-option-button {
         font-size: $ae-menu-option-full-font-size;
       }
 
-      .ae-menu-option, .ae-menu-input {
+      .ember-columnar-menu-option-button, .ember-columnar-menu-option-input {
         width: $ae-menu-option-full-width;
         margin-bottom: $ae-menu-option-full-margin-bottom;
-      }
-    }
-
-    .ae-text-menu {
-      .ae-menu.ae-full {
-        margin-top: $ae-text-menu-full-margin-top;
       }
     }
   }
