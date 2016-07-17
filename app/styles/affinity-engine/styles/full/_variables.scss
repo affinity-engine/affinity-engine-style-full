@@ -3,13 +3,13 @@ $ae-full-padding: 19%;
 // menu
 $ae-menu-full-padding: $ae-menu-padding !default;
 $ae-menu-full-border-width: $ae-menu-border-width !default;
-$ae-menu-full-border-radius: $ae-default-border-radius !default;
+$ae-menu-full-border-radius: 0 !default;
 
 $ae-menu-header-full-font-size: $ae-menu-header-font-size !default;
 $ae-menu-header-full-margin-bottom: $ae-menu-header-margin-bottom !default;
 
 $ae-menu-option-full-font-size: $ae-menu-option-font-size !default;
-$ae-menu-option-full-margin-bottom: $ae-menu-option-margin-bottom !default;
+$ae-menu-option-full-margin-ends: $ae-menu-option-margin-ends !default;
 $ae-menu-option-full-width: $ae-menu-option-width !default;
 $ae-menu-option-full-border-width: $ae-menu-border-width !default;
 
