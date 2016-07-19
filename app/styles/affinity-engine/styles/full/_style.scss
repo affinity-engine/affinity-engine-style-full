@@ -6,7 +6,7 @@
   border-width: $ae-menu-full-border-width;
   border-radius: $ae-menu-full-border-radius;
 
-  .ember-columnar-menu-option-button, .ember-columnar-menu-option-input {
+  .ember-flex-menu-option-button, .ember-flex-menu-option-input {
     border-width: $ae-menu-option-full-border-width;
   }
 }
@@ -20,11 +20,11 @@
       margin-bottom: $ae-menu-header-full-margin-bottom * map-get($breakpoint_factors, small);
     }
 
-    .ember-columnar-menu-option-button {
+    .ember-flex-menu-option-button {
       font-size: $ae-menu-option-full-font-size * map-get($breakpoint_factors, small);
     }
 
-    .ember-columnar-menu-option-type {
+    .ember-flex-menu-option-type {
       width: $ae-menu-option-full-width * 0.95;
       margin: $ae-menu-option-full-margin-ends auto;
     }
@@ -40,11 +40,11 @@
       margin-bottom: $ae-menu-header-full-margin-bottom;
     }
 
-    .ember-columnar-menu-option-button {
+    .ember-flex-menu-option-button {
       font-size: $ae-menu-option-full-font-size;
     }
 
-    .ember-columnar-menu-option-type {
+    .ember-flex-menu-option-type {
       width: $ae-menu-option-full-width;
       margin-bottom: $ae-menu-option-full-margin-ends;
       margin-top: $ae-menu-option-full-margin-ends;
