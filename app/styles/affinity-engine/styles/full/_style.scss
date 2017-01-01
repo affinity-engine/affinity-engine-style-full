@@ -15,9 +15,9 @@
   .ae-menu.ae-full {
     padding: $ae-menu-full-padding * map-get($breakpoint_factors, small);
 
-    .ae-menu-header {
-      font-size: $ae-menu-header-full-font-size * map-get($breakpoint_factors, small);
-      margin-bottom: $ae-menu-header-full-margin-bottom * map-get($breakpoint_factors, small);
+    .ae-menu-text {
+      font-size: $ae-menu-text-full-font-size * map-get($breakpoint_factors, small);
+      margin-bottom: $ae-menu-text-full-margin-bottom * map-get($breakpoint_factors, small);
     }
 
     .ember-flex-menu-option-button {
@@ -35,9 +35,9 @@
   .ae-menu.ae-full {
     padding: $ae-menu-full-padding;
 
-    .ae-menu-header {
-      font-size: $ae-menu-header-full-font-size;
-      margin-bottom: $ae-menu-header-full-margin-bottom;
+    .ae-menu-text {
+      font-size: $ae-menu-text-full-font-size;
+      margin-bottom: $ae-menu-text-full-margin-bottom;
     }
 
     .ember-flex-menu-option-button {
