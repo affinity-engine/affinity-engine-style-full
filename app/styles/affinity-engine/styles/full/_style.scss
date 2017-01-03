@@ -24,6 +24,15 @@
       font-size: $ae-menu-option-full-font-size * map-get($breakpoint_factors, small);
     }
 
+    .ember-flex-menu-option-slider-text {
+      font-weight: $ae-menu-option-slider-full-font-weight;
+      font-size: $ae-menu-option-slider-full-font-size * map-get($breakpoint_factors, small);
+    }
+
+    .noUi-target {
+      margin-bottom: $ae-menu-option-slider-full-margin-bottom * map-get($breakpoint_factors, small);
+    }
+
     .ember-flex-menu-option-type {
       width: $ae-menu-option-full-width * 0.95;
       margin: $ae-menu-option-full-margin-ends auto;
@@ -42,6 +51,14 @@
 
     .ember-flex-menu-option-button {
       font-size: $ae-menu-option-full-font-size;
+    }
+
+    .ember-flex-menu-option-slider-text {
+      font-size: $ae-menu-option-slider-full-font-size;
+    }
+
+    .noUi-target {
+      margin-bottom: $ae-menu-option-slider-full-margin-bottom;
     }
 
     .ember-flex-menu-option-type {
