@@ -9,6 +9,14 @@
   .ember-flex-menu-option-button, .ember-flex-menu-option-input {
     border-width: $ae-menu-option-full-border-width;
   }
+
+  .ember-flex-menu-option-input-accept {
+    border-width: $ae-menu-option-full-border-width;
+    border-top-right-radius: $ae-menu-full-border-radius;
+    border-bottom-right-radius: $ae-menu-full-border-radius;
+    padding: 0 $ae-menu-option-input-accept-full-padding-sides;
+    font-size: $ae-menu-option-input-accept-full-font-size;
+  }
 }
 
 @media (min-width: map-get($breakpoints, small)) {
@@ -22,6 +30,10 @@
 
     .ember-flex-menu-option-button {
       font-size: $ae-menu-option-full-font-size * map-get($breakpoint_factors, small);
+    }
+
+    .ember-flex-menu-option-input {
+      padding: $ae-menu-option-input-full-padding * map-get($breakpoint_factors, small);
     }
 
     .ember-flex-menu-option-slider-text {
@@ -53,6 +65,10 @@
       font-size: $ae-menu-option-full-font-size;
     }
 
+    .ember-flex-menu-option-input {
+      padding: $ae-menu-option-input-full-padding;
+    }
+
     .ember-flex-menu-option-slider-text {
       font-size: $ae-menu-option-slider-full-font-size;
     }
@@ -81,7 +97,7 @@
   text-align: $ae-text-full-text-align;
 
   .ae-text-caption {
-    display: block;
+    display: full;
     border: 0;
   }
 }
