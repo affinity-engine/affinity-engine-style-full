@@ -13,7 +13,9 @@ $ae-menu-option-full-margin-ends: $ae-menu-option-margin-ends !default;
 $ae-menu-option-full-width: $ae-menu-option-width !default;
 $ae-menu-option-full-border-width: $ae-menu-border-width !default;
 
-$ae-menu-option-input-full-padding: $ae-menu-option-input-padding !default;
+$ae-menu-option-input-full-padding-ends: $ae-menu-option-input-padding !default;
+$ae-menu-option-input-full-padding-sides: $ae-menu-option-input-padding * 3 !default;
+$ae-menu-option-input-full-margin-bottom: 0 !default;
 $ae-menu-option-input-accept-full-padding-sides: 15px !default;
 $ae-menu-option-input-accept-full-font-size: 175% !default;
 
