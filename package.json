@@ -1,6 +1,6 @@
 {
   "name": "affinity-engine-style-full",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "Fill the whole engine -- an Affinity Engine Structural Style",
   "keywords": [
     "ember-addon",
