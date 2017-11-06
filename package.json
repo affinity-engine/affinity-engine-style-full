@@ -1,6 +1,6 @@
 {
   "name": "affinity-engine-style-full",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "description": "Fill the whole engine -- an Affinity Engine Structural Style",
   "keywords": [
     "ember-addon",
@@ -51,6 +51,7 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config",
+    "demoURL": "http://www.affinityengine.org/#/api/styles/full",
     "after": [
       "affinity-engine-style-base"
     ]
